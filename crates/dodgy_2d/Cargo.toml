@@ -1,7 +1,7 @@
 [package]
 edition = "2021"
 name = "dodgy_2d"
-version = "0.5.1"
+version = "0.5.5"
 
 description = "An implementation of ORCA, a local collision avoidance algorithm for 2D."
 
@@ -14,5 +14,9 @@ categories = ["game-development"]
 keywords = ["orca", "rvo", "collision", "avoidance", "navigation"]
 
 [dependencies]
-glam = "0.29.2"
-rand = "0.8.5"
+glam = "0.29.1"
+rand = "0.9.1"
+
+[features]
+# Allows access to some of the internal data used to generate the final suggested velocity.
+debug = []
