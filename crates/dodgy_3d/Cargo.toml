@@ -14,8 +14,8 @@ categories = ["game-development"]
 keywords = ["orca", "rvo", "collision", "avoidance", "navigation"]
 
 [dependencies]
-glam = "0.30"
-rand = "0.9"
+glam = "0.32"
+rand = "0.10"
 
 [features]
 # Allows access to some of the internal data used to generate the final suggested velocity.
